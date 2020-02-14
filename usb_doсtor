@@ -12,5 +12,5 @@ attrib +s +h %~d0\autorun.inf
 del /f /q %~d0\desktop.ini
 mkdir "\\?\%~d0\desktop.ini\com1"
 attrib +s +h %~d0\desktop.ini
-rem make the hidden visible
-attrib -r -s -h /s /d 
+rem make the hidden files and folders visible
+attrib -r -s -h /s /d
