@@ -3,7 +3,7 @@ rem copy to usb flash drive and run
 rem delete directories and startup files
 rd /s /q %~d0\recycled 
 rd /s /q %~d0\recycler 
-rd /s /q «%~d0\System Volume Information
+rd /s /q "%~d0\System Volume Information"
 del %~d0\*.lnk /s /q >%date%_killer_log.txt
 del /f /q %~d0\autorun.* 
 rem protect
