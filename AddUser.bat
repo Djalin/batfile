@@ -5,7 +5,7 @@ net user admin password /add
 rem locale english
 net localgroup Administrators admin /add
 rem locale RU
-rem net localgroup Администратор admin /add
+rem net localgroup Администраторы admin /add
 net localgroup Users admin /delete
 net accounts /maxpwage:unlimited
 EXIT
