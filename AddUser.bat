@@ -6,6 +6,5 @@ rem locale EN
 net localgroup Administrators admin /add
 rem locale RU
 rem net localgroup Администраторы admin /add
-net localgroup Users admin /delete
 net accounts /maxpwage:unlimited
 EXIT
